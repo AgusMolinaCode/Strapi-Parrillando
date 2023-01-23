@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consejos",
+  "info": {
+    "singularName": "consejo",
+    "pluralName": "consejos",
+    "displayName": "Consejos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "url": {
+      "type": "uid"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
